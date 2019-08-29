@@ -21,8 +21,8 @@ generos = [{'ação':'ação','animação':'animação','comedia':'comedia','dra
 classificação = [{'livre':'livre','+12':'+12','+10':'+10','+14':'+14','+16':'+16','+18':'+18'}]
 
 class Films(models.Model):
-    name = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    premiere = models.DateTimeField()
+    name = models.CharField(max_length=100)
+    premiere = models.DateTimeField(default=timezone.now)
     directors = models.CharField(max_length=100)
     starring = models.CharField(max_length=200)
     genre = models.CharField(max_length=20)
