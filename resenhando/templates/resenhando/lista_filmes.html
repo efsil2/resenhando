@@ -1,0 +1,32 @@
+{% load static %}
+<html>
+    <head>
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+            <link rel="stulesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+            <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+            <link rel="stylesheet" href="{% static 'css/resenhando.css' %}">
+    </head>
+    <title>
+        Resenhando.com
+    </title>
+    <body>
+        <h1>resenhando.com</h1>
+        <div>
+            <p class="descrição">Olá, bem vindo ao mundo de resenhas dos filmes nacionais, aprecie sem moderação.</p>
+        </div>
+{% for film in films %}
+        <div>
+            <p>
+                publicado em:{{Filme.Publicado}}
+            </p>
+            <h2><a href="">
+                {{Filme.Titulo}}
+            </a></h2>
+            <p>
+                {{Filme.Resenha | linebreaksbr}}
+            </p>
+        </div>
+    {% endfor %}
+    </body>
+
+</html>

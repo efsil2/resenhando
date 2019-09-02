@@ -1,0 +1,91 @@
+h1 a, h2 a, h3 a, h4 a {
+    color: rgb(0, 0, 0);
+    font-family: 'Century Gothic'
+}
+body {
+    padding-left: none;
+}
+h2 {
+    padding-left: 350px;
+} 
+h3 {
+    padding-left: 450px;
+}
+h4 {
+    padding-left: 365px;
+    font-family: 'Century Gothic';
+}
+
+.page-header {
+    background-color: black;
+    margin-top: 0%;
+    padding: 20px 20px 20px 40px;
+}
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+    text-decoration: none;
+}
+.content {
+    margin-left: 46px;
+}
+h1, h2, h3 {
+    font-family: 'Century Gothic';
+}
+.date {
+    color: black;
+}
+.save {
+    float: right;
+}
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: white;
+    float: right;
+    font-size: 46pt;
+    margin-right: 30px;
+}
+.footer {
+    font-family: 'Century Gothic', cursive;
+    font-size: 12pt;
+    padding-left: 320px;
+    padding-top: 100px;
+    position: relative;
+    glyph-orientation-horizontal: inherit;
+}
+
+.body {
+    font-family: 'Century Gothic';
+    padding-left: 150px;
+    font-size: 15pt;
+}
+.body2 {
+    font-family: 'Century Gothic';
+    padding-left: 150px;
+    font-size: 15pt;
+}
+.corpo {
+    height: 3%;
+}
+.pagina {
+    background-color: rgb(218, 218, 218);
+    
+}
+.proxima {
+    padding-left: 450px;
+
+}
+.comentar {
+    padding-left: 450px;
+}
+.descriçao3 {
+    padding-left: 150px;
+    font-family: 'Century Gothic';
+    font-size: 15pt;
+
+}
+.contribuir {
+    padding-left: 470px;
+}
